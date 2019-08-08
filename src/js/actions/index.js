@@ -2,6 +2,7 @@ import { DATA_LOADED } from '../constants/action-types'
 import { EDIT_DATA } from '../constants/action-types'
 import { LIKE_USER } from '../constants/action-types'
 import { DELETE_USER } from '../constants/action-types'
+import { EventTypes } from 'redux-segment';
 
 export function getData() {
     return function (dispatch) {
@@ -10,7 +11,15 @@ export function getData() {
       .then(json => {
           console.log(json);
           
-        dispatch({ type: DATA_LOADED, payload: json });
+        dispatch({ 
+            type: DATA_LOADED, 
+            payload: json, 
+            meta : {
+              analytics : {
+                  eventType : EventTypes.identify,
+              },
+            },
+          });
       });
     }
   }
