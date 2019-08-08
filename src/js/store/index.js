@@ -1,9 +1,6 @@
 import { createStore, applyMiddleware, compose } from "redux";
 import rootReducer from "../reducers/index";
 
-import { reduxReactRouter } from 'redux-router'
-import createHistory from 'history/lib/createBrowserHistory'
-
 import thunk from "redux-thunk";
 
 import { createTracker } from 'redux-segment';

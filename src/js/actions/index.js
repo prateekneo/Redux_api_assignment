@@ -16,7 +16,7 @@ export function getData() {
             payload: json, 
             meta : {
               analytics : {
-                  eventType : EventTypes.identify,
+                  eventType : EventTypes.Page,
               },
             },
           });
