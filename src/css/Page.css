@@ -1,0 +1,73 @@
+.card{
+    border: 1px solid lightgray;
+    padding-bottom: 5px;
+    padding-left: 0;
+    padding-right : 0;
+    margin : 10px 10px 10px 10px;
+    margin-left : 25px;
+    width:300px;
+}
+.heart{
+    color: red;
+}
+.pencil, .trash{
+    color : gray;
+}
+.info{
+    margin : 5px 5px 5px 5px;
+}
+.features {
+    background-color: rgb(245, 245, 245);
+    border-top: 1px solid lightgray;
+    margin-left : 0;
+    margin-right : 0;
+    padding : 5px;
+     border-collapse: initial;
+    font-size: 20px;
+    margin-bottom : -5px;
+    
+}
+
+.modal-body{
+    margin-left : 100px;
+    
+}
+.input_name, .input_email, .input_phone, .input_website{
+    margin-left: 30px;
+}
+.input_name{
+    margin-left: 95px;;
+}
+.input_phone{
+    margin-left: 100px;
+}
+.input_website{
+    margin-left: 80px;
+}
+.btn{
+    margin-left : 150px;
+}
+.info{
+    margin-left : 20px;
+    margin-top: 20px;
+    margin-bottom : 10px;
+}
+.email, .phone, .website{
+    padding-top : 5px;
+    color: grey;
+}
+.avatar{
+    text-size-adjust: 100%;
+    text-align:center;
+    background-color: rgb(245, 245, 245);
+}
+.contr{
+    margin : auto;
+}
+body{
+    margin : 0 auto;
+}
+img{
+    height : 200px;
+    width : 200px;
+}
